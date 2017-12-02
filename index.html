@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" type="image/x-icon" href="https://pages.github.com/favicon.ico">
-    <title>Clean Blog</title>
+
+    <title>鸣镝卫</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,6 +21,8 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="css/hanggao.css" rel="stylesheet">
+    <link rel="icon" href="img/logo.jpg" type="image/x-icon"/> 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,33 +34,32 @@
 </head>
 
 <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only">鸣镝卫</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+                <a class="navbar-brand" href="index.html">鸣镝</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html">首页</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="about.html">关于</a>
                     </li>
                     <li>
-                        <a href="post.html">Sample Post</a>
+                        <a href="post.html">介绍</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.html">联系</a>
                     </li>
                 </ul>
             </div>
@@ -67,41 +68,25 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
-    <!--
-    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>Clean Blog</h1>
-                        <hr class="small">
-                        <span class="subheading">A Clean Blog Theme by Start Bootstrap</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>-->
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-      </ol>
-    
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox" style="overflow: visible">
+
+ <div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>   
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner" style="overflow: visible;">
         <div class="item active">
-            <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
+            <header class="intro-header" style="background-image: url('img/timg.jpg')">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                             <div class="site-heading">
-                                <h1>Clean Blog</h1>
+                                <h1>弓 箭</h1>
                                 <hr class="small">
-                                <span class="subheading">A Clean Blog Theme by Start Bootstrap</span>
+                                <span class="subheading">The traditional Chinese bow and arrow</span>
                             </div>
                         </div>
                     </div>
@@ -109,14 +94,14 @@
             </header>
         </div>
         <div class="item">
-            <header class="intro-header" style="background-image: url('img/about-bg.jpg')">
+            <header class="intro-header" style="background-image: url('img/258.jpg')">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                             <div class="page-heading">
-                                <h1>About Me</h1>
+                                <h1>了解弓箭</h1>
                                 <hr class="small">
-                                <span class="subheading">This is what I do.</span>
+                                <span class="subheading">The development history</span>
                             </div>
                         </div>
                     </div>
@@ -124,32 +109,36 @@
             </header>
         </div>
         <div class="item">
-            <header class="intro-header" style="background-image: url('img/contact-bg.jpg')">
+            <header class="intro-header" style="background-image: url('img/29.png')">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                            <div class="page-heading">
-                                <h1>Contact Me</h1>
-                                <hr class="small">
-                                <span class="subheading">Have questions? I have answers (maybe).</span>
+                            <div class="post-heading">
+                                <h1>传统.弓箭.生活</h1>
+                                <h2 class="subheading">Who will refuse happiness</h2>
                             </div>
                         </div>
                     </div>
                 </div>
             </header>
         </div>
-      </div>
-    
-      <!-- Controls -->
-      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div>
+</div>
+
+
+
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
 
     <!-- Main Content -->
     <div class="container">
@@ -158,46 +147,46 @@
                 <div class="post-preview">
                     <a href="post.html">
                         <h2 class="post-title">
-                            Man must explore, and this is exploration at its greatest
+                            21世纪人类是否还有对传统的潜意识执念
                         </h2>
                         <h3 class="post-subtitle">
-                            Problems look mighty small from 150 miles up
+                            武侠梦让我们披上床单，拿起弓箭，一击必胜。
                         </h3>
                     </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2014</p>
+                    <p class="post-meta">Control the rhythm of archery</p>
                 </div>
                 <hr>
                 <div class="post-preview">
                     <a href="post.html">
                         <h2 class="post-title">
-                            I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
+                            我们都不想浪费活着的每一天
                         </h2>
                     </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 18, 2014</p>
+                    <p class="post-meta">Life of self-discipline</p>
                 </div>
                 <hr>
                 <div class="post-preview">
                     <a href="post.html">
                         <h2 class="post-title">
-                            Science has not yet mastered prophecy
+                            发展7年的百人社团，每一天我们都在进步
                         </h2>
                         <h3 class="post-subtitle">
-                            We predict too much for the next year and yet far too little for the next ten.
+                            不热门，但有热情，静态燃烧的射箭运动，使意念更坚韧
                         </h3>
                     </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</p>
+                    <p class="post-meta">Never forget the martial spirit</p>
                 </div>
                 <hr>
                 <div class="post-preview">
                     <a href="post.html">
                         <h2 class="post-title">
-                            Failure is not an option
+                            深圳鸣镝卫欢迎您
                         </h2>
                         <h3 class="post-subtitle">
-                            Many say exploration is part of our destiny, but it’s actually our duty to future generations.
+                            转变传统与时代的冲突，运动无止境
                         </h3>
                     </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on July 8, 2014</p>
+                    <p class="post-meta">发布于 <a href="#">Start Bootstrap</a> 2017年12月2号</p>
                 </div>
                 <hr>
                 <!-- Pager -->
@@ -247,7 +236,6 @@
                 </div>
             </div>
         </div>
-        <audio src="http://oflo4xtnp.bkt.clouddn.com/girlsCoding_bgm.mp3" autoplay="autoplay" loop="loop"></audio>
     </footer>
 
     <!-- jQuery -->

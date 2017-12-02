@@ -1,0 +1,21 @@
+/*补充内容*/
+.hanggao{
+    margin: 0;
+    padding: 0;
+}
+.fudong{
+	float: center;
+	margin-left: 100px;
+}
+.tupian{
+	width: 350px;
+	height: 220px;
+}
+.heng{
+	height:1px;
+	background-color:black;
+}
+.daohang{
+	width: 1900px;
+	height: 400px;
+}
